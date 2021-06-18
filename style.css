@@ -1,3 +1,4 @@
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Rufina",serif;
     color: #000a2d;
@@ -56,8 +57,8 @@ position: absolute;
   position: relative;
   left: 90%;
   border: 2px solid #white!important;
-  background: white!important;
-  color:#e6323b!important;
+
+  
   font-weight: bold;
 }
 
@@ -68,6 +69,7 @@ position: absolute;
   left:200px;
   font-size: 20px;
   font-weight: bold;
+  border: 2px solid transparent;
 
 margin-left: 20px;s
 }
@@ -80,7 +82,7 @@ margin-left: 20px;s
   left:200px;
   font-size: 20px;
   font-weight: bold;
-  background: #ed9421;
+  background: #e6323b;
   border: 2px solid #ed9421;
   border-radius: 5px;
   color: WHITE!important;
@@ -156,15 +158,18 @@ button>a:hover
 }
 .categories-area .single-cat:hover
 {
-background: #e1bf11;
+background: #e6323b;
 cursor: grab;
-
+color:white;
 }
 .cat-cap>img
 {
   margin: 40px;
 }
-
+.towidth
+{
+  border: 2px solid black;
+}
 .companies-border
 {
   display: inline-block;
@@ -172,6 +177,7 @@ cursor: grab;
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
+
 }
 
 
@@ -188,10 +194,12 @@ cursor: grab;
 }
 
 .contact-info-area .contact-caption p {
+  margin-top:100px;
     margin-bottom: 80px;
 }
 
 .contact-info-area .contact-wrapper input {
+
     background: #fff;
     height: 60px;
     width: 100%;
@@ -275,9 +283,17 @@ button {
     border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
     border-image: initial;
 }
+.fontup
 
-
+{
+  margin: -20px;
+}
+.sizeofimg
+{
+  margin-top: 80px;
+}
 .contact-info-area .contact-wrapper textarea {
+
     color: #a3a3a3;
     background: #fff;
     font-weight: 500;
@@ -513,6 +529,10 @@ p {
 {
   margin: 20px;
 }
+a:hover
+{
+  color: white!important;
+}
 .facebook>h2
 {cursor: grab;
 color:white!important;
@@ -521,6 +541,9 @@ background: #f7291d;
   border-radius: 10px;
   position: relative;
   left: -50px;
+  width: 150px;
+  height: 60px;
+  text-align: center;
 }
 
 .facebook>img:hover
@@ -562,7 +585,7 @@ background: #f7291d;
     font-family: 'Farro', sans-serif;
     cursor: grab;
 
-    border: 0px solid white;
+    border: 4px solid transparent;
     border-radius: 10px;
 }
 
